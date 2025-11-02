@@ -2,7 +2,7 @@
 I will try to solve them weekly or daily sometimes. by the time there will be too much of them I might start categorizing
 
 
-      NOVEMBER – 2025<br>
+      NOVEMBER – 2025
  Su| Mo| Tu| We| Th| Fr| Sa<br>
 -------------------------------<br>
    |   |   |   |   |   | ❌<br>
