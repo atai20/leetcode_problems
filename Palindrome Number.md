@@ -1,2 +1,2 @@
 Problem:
-![Alt text](Palindrome problem.png)
+![Alt text]('Palindrome problem.png')
