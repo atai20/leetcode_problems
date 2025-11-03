@@ -14,7 +14,7 @@ I will try to solve them weekly or daily sometimes. by the time there will be to
 <br>
 ✅ - Compiled yourself everything worked fine
 <br>
-📖 - Didn't complete yourself but tried and wrote actual solution
+📖 - Didn't complete yourself but tried and wrote actual solution, or have read different implementations written by professor of Algorithms class
 <br>
 ❌ - Didn't do that day
 <br>
