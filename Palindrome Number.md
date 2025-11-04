@@ -1,4 +1,5 @@
 Problem:
+https://leetcode.com/problems/palindrome-number/description/
 ![Alt text](Palindrome%20problem.png)
 
 my attempt:
