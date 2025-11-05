@@ -57,3 +57,61 @@ public:
     }
 };
 ```
+
+The code does not even compile, I am stuck with the last step where according to my idea you should sort it out in the end and get top x out from them. I think better solution would have been dynamically sort the instance array, however we would have to also do it for the values array. I think the best solution here would have been with hash tables implementation of which I don't know yet. But we will see on the actual solution.
+
+
+Solution from Leetcode themselves:
+
+Approach: Hash Table + Sorting
+Intuition
+
+We enumerate all subarrays of length k, using a hash table cnt to count the occurrences of each number within the subarray. For each key-value pair (key,value) in the hash table—where key represents a number and value represents its occurrence count—we store them in an array and sort this array primarily in descending order by value, and secondarily in descending order by key.
+
+After sorting, the first x tuples correspond to the x most frequent elements and their counts. By summing their products, we obtain the answer for this subarray.
+Implementation
+
+```C++
+
+class Solution {
+public:
+    vector<int> findXSum(vector<int>& nums, int k, int x) {
+        int n = nums.size();
+        vector<int> ans;
+        for (int i = 0; i <= n - k; ++i) {
+            unordered_map<int, int> cnt;
+            for (int j = i; j < i + k; ++j) {
+                ++cnt[nums[j]];
+            }
+
+            vector<pair<int, int>> freq;
+            for (const auto& [key, value] : cnt) {
+                freq.emplace_back(value, key);
+            }
+            sort(freq.begin(), freq.end(), greater<pair<int, int>>());
+
+            int xsum = 0;
+            for (int j = 0; j < x && j < freq.size(); ++j) {
+                xsum += freq[j].first * freq[j].second;
+            }
+            ans.push_back(xsum);
+        }
+        return ans;
+    }
+};
+
+```
+Complexity Analysis
+
+    Time complexity: O(n×klogk).
+
+    The time to enumerate all subarrays of length k is O(n), and each subarray takes O(klogk) time for sorting and computing the answer.
+
+    Space complexity: O(k).
+
+    This is the space required for hash table and arrays.
+
+As we can see here it was exactly as I thought with hash function implementation and sorting algorithms, all that is left for me is to take into account this method for future reference.
+
+
+
