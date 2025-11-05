@@ -1,6 +1,13 @@
 Problem:https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/?envType=daily-question&envId=2025-11-04
 <img width="734" height="429" alt="image" src="https://github.com/user-attachments/assets/dc0b64cf-65ae-4720-b039-f9bea8833bdd" />
 
+
+General idea
+![unnamed](https://github.com/user-attachments/assets/35b4db37-8f71-4894-950e-1756047596b3)
+
+
+
+
 proposed solution:
 ```C++
 class Solution {
