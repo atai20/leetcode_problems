@@ -16,7 +16,7 @@ I will try to solve them weekly or daily sometimes. by the time there will be to
 <br>
 📖 - Didn't complete yourself but tried and wrote actual solution, or have read different implementations written by professor of Algorithms class
 <br>
-❌ - Didn't do that day
+❌ - Didn't do that day or didn't complete yet with meaningful result
 <br>
 
 I will try to update this daily
