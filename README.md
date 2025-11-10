@@ -6,8 +6,8 @@ I will try to solve them weekly or daily sometimes. by the time there will be to
  Su| Mo| Tu| We| Th| Fr| Sa<br>
 -------------------------------<br>
    |   |   |   |   |   | ❌<br>
-✅| ❌ | 📖 | ❌ | 📖 | 7 | 8<br>
- 9 |10 |11 |12 |13 |14 |15<br>
+✅| ❌ | 📖 | ❌ | 📖 | ❌ | ❌<br>
+❌ |10 |11 |12 |13 |14 |15<br>
 16 |17 |18 |19 |20 |21 |22<br>
 23 |24 |25 |26 |27 |28 |29<br>
 30 | 1 | 2 | 3 | 4 | 5 | 6<br>
