@@ -42,3 +42,40 @@ for i2 in range(1, len(accepted_students)):
       accepted_students[i3] = accepted_students[i2] #<-inside the loop now
       accepted_students[i2] = temp #<-inside the loop now
 ```
+
+There are still problems in that code. The correct approach should be reviewed(according to gemini):
+
+```python
+accepted_students = []
+
+# 1. Selection (This part is correct assuming 'records' is a list of dicts)
+# for i in records:
+#   if (i["gpa"] >= 3.5 and i["credits"] >= 12):
+#     accepted_students.append(i["name"])
+
+# --- Example for demonstration (replace with your actual selection logic) ---
+accepted_students = ["Zoe", "Alice", "Bob", "Charlie", "David"]
+# --------------------------------------------------------------------------
+
+# 2. Insertion Sort
+for i in range(1, len(accepted_students)):
+    # Store the element to be inserted (the "key")
+    key = accepted_students[i]
+    
+    # Start comparing with the element just before 'key'
+    j = i - 1
+    
+    # Move elements of accepted_students[0..i-1], that are greater than key, 
+    # to one position ahead of their current position
+    while j >= 0 and key < accepted_students[j]:
+        accepted_students[j + 1] = accepted_students[j]
+        j -= 1
+        
+    # Insert the key into its correct sorted position
+    accepted_students[j + 1] = key
+
+# accepted_students is now sorted alphabetically
+# print(accepted_students)
+
+
+```
