@@ -7,9 +7,9 @@ I will try to solve them weekly or daily sometimes. by the time there will be to
 -------------------------------<br>
    |   |   |   |   |   | ❌<br>
 ✅| ❌ | 📖 | ❌ | 📖 | ❌ | ❌<br>
-❌ |10 |11 |12 |13 |14 |15<br>
-16 |17 |18 |19 |20 |21 |22<br>
-23 |24 |25 |26 |27 |28 |29<br>
+❌ |❌ |❌ |❌ |❌ |❌ |❌<br>
+❌ |❌ |❌ |❌ |❌ |❌ |❌<br>
+❌ |❌ |25 |26 |27 |28 |29<br>
 30 | 1 | 2 | 3 | 4 | 5 | 6<br>
 <br>
 ✅ - Compiled yourself everything worked fine
