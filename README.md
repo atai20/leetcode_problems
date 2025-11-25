@@ -20,3 +20,5 @@ I will try to solve them weekly or daily sometimes. by the time there will be to
 <br>
 
 I will try to update this daily
+
+Most month I had hackathons and midterms, it is not a reason to not do the work. With more structure and practice from https://takeuforward.org/ it might work better.
